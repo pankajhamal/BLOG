@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    /* Light mode color  */
+    --text-color: #000;
+    --primary-color: #edf2f4;
+    --secondary-color: ;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    
+}
+.container{
+    min-height: 100vh;
+    width: 50%;
+    border-radius: 2px;
+    border: 2px solid rgb(148, 192, 199);
+    padding: 10px;
+}
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.container h3{
+    color: rgb(107, 52, 161);
+}
+.container p{
+    color: #000;
+}
+.container h2{
+    margin-top: 20px;
+}
+.container #view{
+    margin-top: 20px;
+}
+.container #summary{
+    margin-top: 20px;
+}
+.container #summary-title{
+    color: rgb(107, 52, 161);
+}
+.container #note{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content h2{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #023e8a;
+}
+.content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #917e7e;
+}
+.img img{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 70%;
+}
+
+.title p{ 
+    width: 60%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(162, 171, 174);
+}
+
+/* Responsive Desing using media  */
+@media (max-width: 500px){
+    .container{
+        width: 100%;
+        border: none;
+    }
+    .img img{
+        width: 100px;
+        height: 150px;
+        margin-top: 35px;
+    }
+}
