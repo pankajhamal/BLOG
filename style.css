@@ -312,8 +312,8 @@ body{
     }
 }
 
-@media (max-height: 1100px){
-    .center-line{
-        height: 73%;
+@media (max-height: 650px){
+    .wrapper .center-line{
+        height: 85%;
     }
 }
