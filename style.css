@@ -303,7 +303,11 @@ body{
     .row i{
         left: 2.5%;
     }
+    .content-info {
+        height: 170px;
+        width: 40%;
+    }
     .content-info p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
